@@ -1,0 +1,29 @@
+{
+  "name": "selective-archive",
+  "version": "1.0.0",
+  "description": "selectively sync files from a hyperdrive archive",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joehand/selective-archive.git"
+  },
+  "author": "Joe Hand <joe@hand.email> (https://joeahand.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joehand/selective-archive/issues"
+  },
+  "homepage": "https://github.com/joehand/selective-archive#readme",
+  "dependencies": {
+    "anymatch": "^1.3.0",
+    "stream-each": "^1.1.2"
+  },
+  "devDependencies": {
+    "hyperdrive": "^7.4.0",
+    "hyperdrive-archive-swarm": "^4.1.2",
+    "memdb": "^1.3.1",
+    "random-access-file": "^1.3.1"
+  }
+}
